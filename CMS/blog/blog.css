@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+html {
+  background-color: white;
+}
+body,
+header,
+main {
+  background-color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+nav a:link {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  font-size: 0.8em;
+  color: black;
+  letter-spacing: 0.1em;
+}
+nav a:visited {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+nav a:hover {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+nav a:active {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+
+nav {
+  margin-top: 7vw;
+  display: flex;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+  justify-content: left;
+  margin-left: 11.786vw;
+}
+
+.box1,
+.box2 {
+  background-color: #a69090;
+  padding: 1vw 4vw 1vw 4vw;
+  border-style: solid;
+  border-width: 0.7px 0.7px 0.7px 0px;
+  border-color: black;
+}
+.box1:hover,
+.box2:hover {
+  background-color: #f2ebeb;
+  cursor: pointer;
+}
+.box1 {
+  border-width: 0.7px 0.7px 0.7px 0.7px;
+}
+
+input,
+textarea,
+label {
+  display: block;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-left: 15vw;
+  margin-right: 35vw;
+}
+
+.writeComment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  margin-top: 2vw;
+  margin-bottom: 3em;
+}
+
+legend {
+  font-family: "Newsreader", serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-family: "Newsreader", serif;
+  margin-left: 15vw;
+}
+
+h2 {
+  font-family: "Newsreader", serif;
+  margin-left: 15vw;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
